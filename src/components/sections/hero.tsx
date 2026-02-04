@@ -94,7 +94,7 @@ const HeroSection = () => {
                     Hello, world! 👋 I build things at the overlap of tech and legal systems. Right now that&apos;s full-stack, cloud, and a growing focus on AI and machine learning. Always up for teams where I can ship and learn.
                   </p>
                   <p className={cn("md:self-start mt-2 text-xs text-muted-foreground")}>
-                    5+ years · 10+ certs · 3 companies
+                    5+ years · 5 certs · 3 companies
                   </p>
                 </BlurIn>
               </div>
