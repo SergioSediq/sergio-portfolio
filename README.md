@@ -1,74 +1,117 @@
 # 🚀 My Portfolio Website
 
-Welcome to the repository for my personal portfolio website! This is where I showcase my skills, projects, and a bit of my personality through jaw-dropping 3D animations, slick interactions, and fluid motion. If you're into creative web design, you're in the right place.
+Welcome to the repository for my personal portfolio website. This project is a creative playground where I showcase my **skills, projects, and design philosophy** through immersive 3D visuals, smooth animations, and modern web interactions.
 
-![Portfolio Preview](https://github.com/SergioSediq/Portfolio/blob/main/public/assets/projects-screenshots/portfolio/landing.png?raw=true)
+The goal of this site is simple: **stand out visually while remaining performant, accessible, and responsive**.
 
-## 🔥 Features
+---
 
-- **3D Animations**: Custom-made interactive keyboard using Spline with skills as keycaps that reveal titles and descriptions on hover.
-- **Slick Interactions**: Powered by GSAP and Framer Motion for smooth animations on scroll, hover, and element reveal.
-- **Space Theme**: Particles on a dark background to simulate a cosmic environment, making the experience out of this world.
-- **Responsive Design**: Fully responsive across all devices to ensure the best user experience.
-- **Innovative Web Design**: Combining creativity with functionality to push the boundaries of modern web design.
+## 🖼️ Preview
+
+| **Landing** | **Skills** |
+|:---:|:---:|
+| ![Landing](public/assets/nav-link-previews/landing.png) | ![Skills](public/assets/nav-link-previews/skills.png) |
+| **Projects** | **Contact** |
+| ![Projects](public/assets/nav-link-previews/projects.png) | ![Contact](public/assets/nav-link-previews/contact.png) |
+
+---
+
+## ✨ Highlights
+
+* 🎹 **3D Interactive Keyboard** — Custom-built with **Spline**, where each key represents a skill and reveals titles and descriptions on hover.
+* 🎞️ **Fluid Animations** — Scroll, hover, and reveal animations powered by **GSAP** and **Framer Motion**.
+* 🌌 **Space-Inspired Theme** — Particle effects on a dark canvas to simulate a cosmic environment.
+* 📱 **Fully Responsive** — Optimized for desktop, tablet, and mobile devices.
+* 🎨 **Creative + Functional** — Experimental visuals balanced with usability and performance.
+
+---
 
 ## 🛠️ Tech Stack
 
-- **Frontend**: Next.js, React, Tailwind CSS, Shadcn, Aceternity UI
-- **Animations**: GSAP, Framer Motion, Spline Runtime
-- **Misc**: Resend, Socketio, Zod
+### Frontend
+
+* **Next.js**
+* **React**
+* **Tailwind CSS**
+* **shadcn/ui**
+* **Aceternity UI**
+
+### Animations & 3D
+
+* **GSAP**
+* **Framer Motion**
+* **Spline Runtime**
+
+### Utilities & Services
+
+* **Resend** (emails)
+* **Socket.IO** (real-time features)
+* **Zod** (schema validation)
+
+---
 
 ## 🚀 Getting Started
 
 ### Prerequisites
 
-- Node.js (v14+)
-- npm or yarn
+* **Node.js** v14 or higher
+* **npm** or **yarn**
 
 ### Installation
 
-1. Clone the repository:
+Clone the repository:
 
-    ```bash
-    git clone https://github.com/SergioSediq/Portfolio.git
-    ```
+```bash
+git clone https://github.com/SergioSediq/sergio-portfolio.git
+```
 
-2. Navigate to the project directory:
+Navigate to the project directory:
 
-    ```bash
-    cd Portfolio
-    ```
+```bash
+cd sergio-portfolio
+```
 
-3. Install dependencies:
+Install dependencies:
 
-    ```bash
-    npm install
-    # or
-    yarn install
-    ```
+```bash
+npm install
+# or
+yarn install
+```
 
-4. Run the development server:
+Start the development server:
 
-    ```bash
-    npm run dev
-    # or
-    yarn dev
-    ```
+```bash
+npm run dev
+# or
+yarn dev
+```
 
-5. Open [http://localhost:3000](http://localhost:3000) in your browser to see the magic!
+Open **[http://localhost:3000](http://localhost:3000)** in your browser.
 
-## 🚀 Deployment
+---
 
-This site is deployed on Vercel. For your own deployment, follow these steps:
+## 🌍 Deployment
 
-1. Push your code to a GitHub repository.
-2. Connect your repository to Vercel.
-3. Vercel will handle the deployment process.
+The portfolio is deployed on **Vercel**.
+
+To deploy your own version:
+
+1. Push the project to a GitHub repository
+2. Import the repository into Vercel
+3. Vercel automatically builds and deploys the site
+
+---
 
 ## 🤝 Contributing
 
-If you'd like to contribute or suggest improvements, feel free to open an issue or submit a pull request. All contributions are welcome!
+Contributions, suggestions, and improvements are welcome.
+
+* Open an **issue** for bugs or ideas
+* Submit a **pull request** for enhancements
+
+---
 
 ## 📄 License
 
-This project is open source and available under the [MIT License](LICENSE).
+This project is open source and licensed under the **MIT License**.
