@@ -451,100 +451,41 @@ const projects: Project[] = [
     },
   },
   {
-    id: "jra",
-    category: "Result analyzer",
-    title: "JNTUA Results Analyzer",
-    src: "/assets/projects-screenshots/jra/1.png",
-    screenshots: ["1.png"],
-    live: "https://naresh-khatri.github.io/JNTUA-result-analyser-spa/#/",
+    id: "weather-viz",
+    category: "Data visualization",
+    title: "Global Weather Visualisation",
+    src: "/assets/projects-screenshots/weather-viz/landing.png",
+    screenshots: ["landing.png"],
+    live: "https://global-weather-visualisation.vercel.app",
+    github: "https://github.com/SergioSediq/global-weather-visualisation",
     skills: {
-      frontend: [PROJECT_SKILLS.js, PROJECT_SKILLS.vue],
-      backend: [
-        PROJECT_SKILLS.node,
-        PROJECT_SKILLS.mongo,
-        PROJECT_SKILLS.express,
-        PROJECT_SKILLS.docker,
-      ],
+      frontend: [PROJECT_SKILLS.js],
+      backend: [],
     },
     get content() {
       return (
         <div>
           <TypographyP className="font-mono ">
-            JNTUA Results Analyzer was a revolutionary tool designed to simplify
-            and enhance the experience of accessing academic results. It served
-            as a powerful proxy between the JNTUA university results website and
-            its users, offering a range of features that made result analysis
-            faster and more efficient. Here&apos;s what made it stand out:
+            A web-based project for visualizing global weather conditions using
+            animated wind data and map projections. It uses weather forecast data
+            from the Global Forecast System (GFS), combines SVG and HTML5 Canvas
+            for rendering, and runs entirely in the browser.
           </TypographyP>
           <ProjectsLinks live={this.live} repo={this.github} />
-          <SlideShow images={[`${BASE_PATH}/jra/1.png`]} />
-          <TypographyH3 className="my-4 mt-8">
-            Effortless Results Retrieval
-          </TypographyH3>
-          {/* Effortless Results Retrieval: */}
+          <SlideShow images={[`${BASE_PATH}/weather-viz/landing.png`]} />
+          <TypographyH3 className="my-4 mt-8">Features</TypographyH3>
           <ul className="list-disc ml-6">
             <li className="font-mono">
-              Search all your results using a single roll number, eliminating
-              the tedious task of sifting through thousands of rows on the
-              official site.
+              Visualizes global wind patterns on an interactive 3D-style world
+              map with animated particles and color gradients for intensity.
             </li>
-          </ul>
-          <TypographyH3 className="my-4 mt-8">Class-Wise Results:</TypographyH3>
-          <ul className="list-disc ml-6">
             <li className="font-mono">
-              class-wise results effortlessly by entering a roll number range.
-              No more manual searches or filtering.
+              GFS data on a 1° grid, interpolated in the browser; layered
+              rendering (SVG map + Canvas for particles and overlay).
             </li>
-          </ul>
-          <TypographyH3 className="my-4 mt-8">Faculty Features:</TypographyH3>
-          <ul className="list-disc ml-6">
             <li className="font-mono">
-              Faculty members could download batch results in Excel format,
-              making administrative tasks a breeze.
-            </li>
-          </ul>
-          <TypographyH3 className="my-4 mt-8">
-            Enhanced Data Insights:
-          </TypographyH3>
-          <ul className="list-disc ml-6">
-            <li className="font-mono">
-              Each result came with additional features including:
-              <ul className="list-disc font-mono ml-6">
-                <li>
-                  <strong>CGPA Calculations: </strong>Easily track your
-                  cumulative grade point average.
-                </li>
-                <li>
-                  <strong>Charts:</strong> Visualize your academic performance
-                  with comprehensive charts.
-                </li>
-                <li>
-                  <strong>Future Projections:</strong> Get insights into
-                  potential future outcomes based on current performance.
-                </li>
-                <li>
-                  <strong> Backlog Counts: </strong>Keep track of your backlog
-                  subjects at a glance.
-                </li>
-              </ul>
-            </li>
-          </ul>
-          <TypographyH3 className="my-4 mt-8">Performance:</TypographyH3>
-          <ul className="list-disc ml-6">
-            <li className="font-mono">
-              The application was significantly faster and more efficient than
-              the official site, providing a smoother user experience.
-            </li>
-          </ul>
-          <TypographyH3 className="my-4 mt-8">Downfall:</TypographyH3>
-          <ul className="list-disc ml-6">
-            <li className="font-mono">
-              Unfortunately, as of May 2022, the tool stopped working due to the
-              introduction of CAPTCHA on the official JNTUA results site, which
-              disrupted the seamless functionality of the app. JNTUA Results
-              Analyzer transformed the way students and faculty interacted with
-              academic results, making it a must-have tool until its unexpected
-              shutdown.
+              Deployed as a static site; inspired by wind map visualizations and
+              built with JavaScript, HTML, and CSS.
             </li>
           </ul>
         </div>

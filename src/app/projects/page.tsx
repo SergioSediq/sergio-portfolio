@@ -20,15 +20,6 @@ const PROJECTS = [
   },
   {
     id: 2,
-    name: "CatchUp",
-    description: `Personal connection assistant for iOS. Smart reminders, message suggestions, and conversation notes to stay in touch with the people who matter. SwiftUI · SwiftData.`,
-    link: "https://github.com/SergioSediq/CatchUp",
-    images: [
-      "/assets/projects-screenshots/catchup/landing.png",
-    ],
-  },
-  {
-    id: 3,
     name: "MyHealthPal",
     description: `A unified, AI-powered health companion that combines Next.js, Spring Boot, and Flask. Delivers intelligent medical guidance, empathetic mental health support (Pal-Chat), and local healthcare discovery.`,
     link: "https://github.com/SergioSediq/MyHealthPal",
@@ -37,12 +28,40 @@ const PROJECTS = [
     ],
   },
   {
+    id: 3,
+    name: "GovLens",
+    description: `AI-powered government news curator. Aggregate agency releases, legislative updates, and trusted news into a single source of truth. Summaries, Q&A, and bias signals.`,
+    link: "https://github.com/SergioSediq/GovLens",
+    images: [
+      "/assets/projects-screenshots/govlens/landing.png",
+    ],
+  },
+  {
     id: 4,
-    name: "JNTUA Results Analyser",
-    description: `the go-to app for JNTUA students, empowering them to analyze, compare, and view classwise results effortlessly.
-     Dive into your academic journey with ease, track your progress, and gain valuable insights.`,
-    link: "/projects/4",
-    images: ["/assets/projects-screenshots/jra/1.png"],
+    name: "Chatify",
+    description: `Real-time web chat with Vite, React, TypeScript, and Firebase. Clean UI with 1:1 and group conversations, replies, read receipts, emoji and reactions, and media sharing.`,
+    link: "https://github.com/SergioSediq/Chatify",
+    images: [
+      "/assets/projects-screenshots/chatify/landing.png",
+    ],
+  },
+  {
+    id: 5,
+    name: "CatchUp",
+    description: `Personal connection assistant for iOS. Smart reminders, message suggestions, and conversation notes to stay in touch with the people who matter. SwiftUI · SwiftData.`,
+    link: "https://github.com/SergioSediq/CatchUp",
+    images: [
+      "/assets/projects-screenshots/catchup/landing.png",
+    ],
+  },
+  {
+    id: 6,
+    name: "Global Weather Visualisation",
+    description: `Web-based visualization of global weather conditions using animated wind data and map projections. Uses GFS data, SVG and HTML5 Canvas, runs in the browser.`,
+    link: "https://github.com/SergioSediq/global-weather-visualisation",
+    images: [
+      "/assets/projects-screenshots/weather-viz/landing.png",
+    ],
   },
 ];
 function Page() {
