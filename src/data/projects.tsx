@@ -8,24 +8,31 @@ import Link from "next/link";
 import { ReactNode } from "react";
 import { RiNextjsFill, RiNodejsFill, RiReactjsFill } from "react-icons/ri";
 import {
+  SiBackbonedotjs,
   SiChakraui,
+  SiD3Dotjs,
+  SiDjango,
   SiDocker,
   SiExpress,
   SiFirebase,
+  SiHtml5,
   SiJavascript,
   SiMongodb,
   SiPostgresql,
   SiPrisma,
   SiPython,
   SiReactquery,
+  SiRedis,
   SiSanity,
   SiShadcnui,
   SiSocketdotio,
+  SiSpringboot,
   SiSupabase,
   SiSwift,
   SiTailwindcss,
   SiThreedotjs,
   SiTypescript,
+  SiVite,
   SiVuedotjs,
 } from "react-icons/si";
 import { TbBrandFramerMotion } from "react-icons/tb";
@@ -229,6 +236,48 @@ const PROJECT_SKILLS = {
     fg: "white",
     icon: <SiSwift />,
   },
+  html5: {
+    title: "HTML5",
+    bg: "black",
+    fg: "white",
+    icon: <SiHtml5 />,
+  },
+  d3: {
+    title: "D3.js",
+    bg: "black",
+    fg: "white",
+    icon: <SiD3Dotjs />,
+  },
+  backbone: {
+    title: "Backbone.js",
+    bg: "black",
+    fg: "white",
+    icon: <SiBackbonedotjs />,
+  },
+  django: {
+    title: "Django",
+    bg: "black",
+    fg: "white",
+    icon: <SiDjango />,
+  },
+  springboot: {
+    title: "Spring Boot",
+    bg: "black",
+    fg: "white",
+    icon: <SiSpringboot />,
+  },
+  redis: {
+    title: "Redis",
+    bg: "black",
+    fg: "white",
+    icon: <SiRedis />,
+  },
+  vite: {
+    title: "Vite",
+    bg: "black",
+    fg: "white",
+    icon: <SiVite />,
+  },
 };
 export type Project = {
   id: string;
@@ -253,10 +302,13 @@ const projects: Project[] = [
         PROJECT_SKILLS.ts,
         PROJECT_SKILLS.next,
         PROJECT_SKILLS.react,
+        PROJECT_SKILLS.d3,
       ],
       backend: [
+        PROJECT_SKILLS.django,
         PROJECT_SKILLS.python,
         PROJECT_SKILLS.postgres,
+        PROJECT_SKILLS.supabase,
       ],
     },
     live: "https://github.com/SergioSediq/on-orbit-collision-predictor",
@@ -303,7 +355,7 @@ const projects: Project[] = [
         PROJECT_SKILLS.ts,
       ],
       backend: [
-        PROJECT_SKILLS.node,
+        PROJECT_SKILLS.springboot,
         PROJECT_SKILLS.python,
         PROJECT_SKILLS.postgres,
         PROJECT_SKILLS.docker,
@@ -354,6 +406,8 @@ const projects: Project[] = [
         PROJECT_SKILLS.node,
         PROJECT_SKILLS.express,
         PROJECT_SKILLS.mongo,
+        PROJECT_SKILLS.redis,
+        PROJECT_SKILLS.docker,
       ],
     },
     get content() {
@@ -391,6 +445,7 @@ const projects: Project[] = [
       frontend: [
         PROJECT_SKILLS.react,
         PROJECT_SKILLS.ts,
+        PROJECT_SKILLS.vite,
         PROJECT_SKILLS.firebase,
       ],
       backend: [PROJECT_SKILLS.firebase],
@@ -459,8 +514,13 @@ const projects: Project[] = [
     live: "https://global-weather-visualisation.vercel.app",
     github: "https://github.com/SergioSediq/global-weather-visualisation",
     skills: {
-      frontend: [PROJECT_SKILLS.js],
-      backend: [],
+      frontend: [
+        PROJECT_SKILLS.js,
+        PROJECT_SKILLS.html5,
+        PROJECT_SKILLS.d3,
+        PROJECT_SKILLS.backbone,
+      ],
+      backend: [PROJECT_SKILLS.node, PROJECT_SKILLS.express],
     },
     get content() {
       return (
