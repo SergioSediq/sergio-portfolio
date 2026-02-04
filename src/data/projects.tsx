@@ -446,7 +446,6 @@ const projects: Project[] = [
         PROJECT_SKILLS.react,
         PROJECT_SKILLS.ts,
         PROJECT_SKILLS.vite,
-        PROJECT_SKILLS.firebase,
       ],
       backend: [PROJECT_SKILLS.firebase],
     },
