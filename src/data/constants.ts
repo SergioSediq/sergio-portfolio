@@ -380,9 +380,9 @@ export const EXPERIENCE: Experience[] = [
     title: "Technical Support Specialist",
     company: "The Co-operative Bank",
     description: [
-      "Delivered second and third-line support for banking systems, troubleshooting online banking, token-authentication (PIN resets, resynch, unblocking), and Financial Director Online dual-authority platforms across 100+ incidents monthly.",
-      "Implemented ITIL-aligned resolution for account lifecycle and backend resynch of token connections via ITSM ticketing, reducing mean resolution time from 45 min to 32 min and cutting repeat ticket rate from 35% to 25%.",
-      "Performed root-cause analysis and documented 40+ fixes; collaborated with developers and vendor teams on escalations, administering 50+ commercial setups monthly and maintaining 100% regulatory compliance.",
+      "Supported and monitored business-critical production systems in regulated financial environment, resolving 100+ incidents per month across authentication, online banking, and backend infrastructure",
+      "Led incident triage, root-cause analysis, remediation, and post-incident reviews across distributed systems; collaborated with backend engineers, vendors, and platform teams to escalate, validate fixes, and restore reliability",
+      "Managed account lifecycle and system state synchronization via ITSM tooling, reducing mean resolution time by ~30% and repeat incident rate by ~25% through runbook automation and security and compliance processes",
     ],
     skills: [
       SkillNames.ITIL,
