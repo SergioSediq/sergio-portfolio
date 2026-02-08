@@ -382,7 +382,7 @@ export const EXPERIENCE: Experience[] = [
     description: [
       "Supported and monitored business-critical production systems in regulated financial environment, resolving 100+ incidents per month across authentication, online banking, and backend infrastructure",
       "Led incident triage, root-cause analysis, remediation, and post-incident reviews across distributed systems; collaborated with backend engineers, vendors, and platform teams to escalate, validate fixes, and restore reliability",
-      "Managed account lifecycle and system state synchronization via ITSM tooling, reducing mean resolution time by ~30% and repeat incident rate by ~25% through runbook automation and security and compliance processes",
+      "Managed account lifecycle and system state synchronization via ITSM tooling, reducing mean resolution time by 30% and repeat incident rate by 25% through runbook automation and security and compliance processes",
     ],
     skills: [
       SkillNames.ITIL,
