@@ -100,7 +100,7 @@ const HeroSection = () => {
               </div>
               <div className="mt-8 flex flex-col gap-3 w-fit">
                 <Link
-                  href="/cv.pdf?v=2"
+                  href="/cv.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex-1"
