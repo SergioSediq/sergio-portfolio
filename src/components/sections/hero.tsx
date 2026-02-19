@@ -94,7 +94,7 @@ const HeroSection = () => {
                     Hello, world! 👋 I work where infrastructure meets product, reliable systems, secure and compliant by design. I ship on AWS, Azure, and modern tooling, and I&apos;m always up for teams that care about scale and clarity.
                   </p>
                   <p className={cn("md:self-start mt-2 text-xs text-muted-foreground")}>
-                    5+ years · 5 certs · 3 companies
+                    5+ years · 5 certs · 4 companies
                   </p>
                 </BlurIn>
               </div>
