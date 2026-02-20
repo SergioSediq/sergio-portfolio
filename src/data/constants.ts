@@ -413,7 +413,7 @@ export const EXPERIENCE: Experience[] = [
     id: 3,
     startDate: "May 2020",
     endDate: "Sep 2020",
-    title: "Public Cloud Engineering Intern",
+    title: "Public Cloud Engineer Intern",
     company: "Nomura",
     description: [
       "Built scalable, secure Azure infrastructure using Terraform (Infrastructure as Code; resource groups, virtual networks, NSGs, Key Vault), reducing environment setup time by 40% and standardizing 10+ workloads",
