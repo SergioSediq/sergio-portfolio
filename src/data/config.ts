@@ -1,15 +1,15 @@
 const config = {
-  title: "Sergio Sediq | Cloud Engineer",
+  title: "Sergio Sediq | Full-Stack Developer",
   description: {
-    long: "Explore the portfolio of Sergio, a cloud engineer building and operating infrastructure on AWS and Azure. IaC, CI/CD, and reliable systems. Discover my work including On-Orbit Collision Predictor, MyHealthPal, GovLens, Chatify, CatchUp, and more.",
+    long: "Explore the portfolio of Sergio, a full-stack developer and creative technologist specializing in interactive web experiences, 3D animations, and innovative projects. Discover my latest work, including On-Orbit Collision Predictor, MyHealthPal, GovLens, Chatify, CatchUp, and more. Let's build something amazing together!",
     short:
-      "Portfolio of Sergio Sediq, cloud engineer—infrastructure, IaC, CI/CD, AWS, Azure.",
+      "Discover the portfolio of Sergio, a full-stack developer creating interactive web experiences and innovative projects.",
   },
   keywords: [
     "Sergio",
     "portfolio",
-    "cloud engineer",
-    "cloud infrastructure",
+    "full-stack developer",
+    "creative technologist",
     "web development",
     "3D animations",
     "interactive websites",

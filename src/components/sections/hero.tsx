@@ -76,7 +76,7 @@ const HeroSection = () => {
                       "cursor-default font-display sm:text-xl md:text-xl whitespace-nowrap bg-clip-text "
                     )}
                   >
-                    A Cloud Engineer
+                    A Full Stack Software Engineer
                   </p>
                 </BlurIn>
                 <BlurIn delay={1.4}>
@@ -86,15 +86,15 @@ const HeroSection = () => {
                       "cursor-default font-display sm:text-base md:text-base leading-relaxed"
                     )}
                   >
-                    CS & Law graduate from Manchester Metropolitan University. I build and operate cloud infrastructure, automate with IaC and CI/CD, and work across full-stack and AI where it matters. 🚀
+                    CS & Law graduate from Manchester Metropolitan University. I focus on where technology meets regulation, and I work with full-stack development, cloud, and machine learning. 🚀
                   </p>
                 </BlurIn>
                 <BlurIn delay={1.5}>
                   <p className={cn("md:self-start mt-4 max-w-md text-sm text-slate-600 dark:text-white leading-relaxed")}>
-                    Hello, world! 👋 I work where infrastructure meets product, reliable systems, secure and compliant by design. I ship on AWS, Azure, and modern tooling, and I&apos;m always up for teams that care about scale and clarity.
+                    Hello, world! 👋 I build things at the overlap of tech and legal systems. Right now that&apos;s full-stack, cloud, and a growing focus on AI and machine learning. Always up for teams where I can ship and learn.
                   </p>
                   <p className={cn("md:self-start mt-2 text-xs text-muted-foreground")}>
-                    5+ years · 5 certs · 4 companies
+                    5+ years · 5 certs · 3 companies
                   </p>
                 </BlurIn>
               </div>
