@@ -76,7 +76,7 @@ const HeroSection = () => {
                       "cursor-default font-display sm:text-xl md:text-xl whitespace-nowrap bg-clip-text "
                     )}
                   >
-                    A Full Stack Software Engineer
+                    A Machine Learning Engineer
                   </p>
                 </BlurIn>
                 <BlurIn delay={1.4}>
@@ -86,12 +86,12 @@ const HeroSection = () => {
                       "cursor-default font-display sm:text-base md:text-base leading-relaxed"
                     )}
                   >
-                    CS & Law graduate from Manchester Metropolitan University. I focus on where technology meets regulation, and I work with full-stack development, cloud, and machine learning. 🚀
+                    CS & Law graduate from Manchester Metropolitan University. I build and ship machine learning systems in production, from data pipelines and model deployment to observability and scale. 🚀
                   </p>
                 </BlurIn>
                 <BlurIn delay={1.5}>
                   <p className={cn("md:self-start mt-4 max-w-md text-sm text-slate-600 dark:text-white leading-relaxed")}>
-                    Hello, world! 👋 I build things at the overlap of tech and legal systems. Right now that&apos;s full-stack, cloud, and a growing focus on AI and machine learning. Always up for teams where I can ship and learn.
+                    Hello, world! 👋 I work on ML platforms, NLP, and inference at scale. I like turning research into reliable systems and teaming up with engineers who care about shipping. Always up for roles where I can ship and learn.
                   </p>
                   <p className={cn("md:self-start mt-2 text-xs text-muted-foreground")}>
                     5+ years · 5 certs · 3 companies

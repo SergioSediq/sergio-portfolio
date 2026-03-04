@@ -380,9 +380,9 @@ export const EXPERIENCE: Experience[] = [
     title: "Technical Support Specialist",
     company: "The Co-operative Bank",
     description: [
-      "Supported and monitored business-critical production systems in regulated financial environment, resolving 100+ incidents per month across authentication, online banking, and backend infrastructure",
-      "Led incident triage, root-cause analysis, remediation, and post-incident reviews across distributed systems; collaborated with backend engineers, vendors, and platform teams to escalate, validate fixes, and restore reliability",
-      "Managed account lifecycle and system state synchronization via ITSM tooling, reducing mean resolution time by 30% and repeat incident rate by 25% through runbook automation and security and compliance processes."
+      "Monitored business-critical enterprise production systems in a regulated financial environment, analysing authentication, transaction, and fraud signals to detect anomalies and resolve 100+ incidents per month across online banking and backend services",
+      "Used observability dashboards and log analytics to identify recurring failure patterns and drive data-driven fixes, reducing mean resolution time by 30% and repeat incident rate by 25%",
+      "Managed account lifecycle and system state synchronization via ITSM tooling and runbook automation, ensuring data consistency across authentication, ML-driven fraud detection, and core banking systems",
     ],
     skills: [
       SkillNames.ITIL,
@@ -394,30 +394,30 @@ export const EXPERIENCE: Experience[] = [
   {
     id: 2,
     startDate: "Jan 2021",
-    endDate: "Apr 2021",
-    title: "Software Engineer Intern",
+    endDate: "Jun 2021",
+    title: "Machine Learning Platform Engineer Intern",
     company: "Peltarion",
     description: [
-      "Owned end-to-end development of a production-grade service using AWS CDK (TypeScript) and Java-based AWS Lambda functions, automating manual campaign management and scaling to 6M+ emails/day.",
-      "Launched with AWS CloudWatch dashboards used daily by the Ring marketing team, cutting costs by $8K+ monthly and saving 80+ hours of manual work each week.",
-      "Integrated with live systems processing 40M+ events/day by connecting AWS SNS and SQS to internal services and persisting artifacts in AWS S3, reducing campaign processing time by 23%.",
+      "Developed a production-grade service on a machine learning platform, wiring Python-based models into AWS CDK (TypeScript) and Java AWS Lambda functions to automate model-driven campaign workflows and scale email delivery to 6M+ messages/day",
+      "Built AWS CloudWatch monitoring and alerting for ML-powered campaigns, tracking model outputs and system health, which cut campaign costs by $8K+ per month and saved 80+ hours of manual work each week",
+      "Integrated platform services and ML inference pipelines with downstream systems processing 40M+ events/day using AWS SNS, SQS, and S3, reducing campaign processing time by 23%",
     ],
     skills: [
       SkillNames.TS,
       SkillNames.JAVA,
       SkillNames.AWS,
-      SkillNames.NODEJS,
+      SkillNames.PYTHON,
     ],
   },
   {
     id: 3,
-    startDate: "May 2020",
+    startDate: "Apr 2020",
     endDate: "Sep 2020",
     title: "Machine Learning Engineer Intern",
     company: "Outlier",
     description: [
-      "Built a Python NLP pipeline with scikit-learn, spaCy, and NLTK, then productionized it as a Flask API with Redis caching, cutting processing time from 5 to 3 minutes across 1,200+ requirements per month.",
-      "Engineered BERT-based dependency extraction for requirement lists, improving project planning efficiency by 37%.",
+      "Built a Python natural language processing pipeline using scikit-learn, spaCy, and NLTK to analyse requirement documents, then deployed it as a Flask + Redis microservice, cutting processing time from 5 to 3 minutes across 1,200+ requirements per month",
+      "Trained and evaluated a BERT-based model in PyTorch on GPU, using mini-batching to handle requirement corpora efficiently and improving downstream project planning efficiency by 37%",
     ],
     skills: [
       SkillNames.PYTHON,
@@ -427,13 +427,13 @@ export const EXPERIENCE: Experience[] = [
   },
   {
     id: 4,
-    startDate: "May 2019",
+    startDate: "Apr 2019",
     endDate: "Sep 2019",
-    title: "Backend Engineer Intern",
+    title: "Machine Learning Infrastructure Engineer Intern",
     company: "Outlier",
     description: [
-      "Built 30+ AWS Lambda functions and 15+ Step Function workflows using REST API integrations to improve reuse and reliability, reducing execution time by 65% and saving $1K per large scale deployment.",
-      "Built a Spring Boot app, containerized with Docker, and deployed on AWS EC2, serving 30+ stakeholders.",
+      "Implemented and tuned 30+ AWS Lambda functions and 15+ Step Function workflows to orchestrate machine learning data pipelines and inference services, reducing execution time by 65% and saving $1K per large-scale deployment",
+      "Developed a Spring Boot service, containerized with Docker and deployed on AWS EC2, exposing REST APIs used by 30+ internal stakeholders to consume ML-generated insights",
     ],
     skills: [
       SkillNames.AWS,
