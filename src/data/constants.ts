@@ -377,7 +377,7 @@ export const EXPERIENCE: Experience[] = [
     id: 1,
     startDate: "Sep 2022",
     endDate: "Present",
-    title: "Technical Support Specialist",
+    title: "Application Support Engineer",
     company: "The Co-operative Bank",
     description: [
       "Monitored business-critical enterprise production systems in a regulated financial environment, analysing authentication, transaction, and fraud signals to detect anomalies and resolve 100+ incidents per month across online banking and backend services",
@@ -393,20 +393,20 @@ export const EXPERIENCE: Experience[] = [
   },
   {
     id: 2,
-    startDate: "Jan 2021",
-    endDate: "Jun 2021",
-    title: "Machine Learning Platform Engineer Intern",
+    startDate: "Nov 2020",
+    endDate: "Jun 2022",
+    title: "Software Engineer",
     company: "Peltarion",
     description: [
-      "Developed a production-grade service on a machine learning platform, wiring Python-based models into AWS CDK (TypeScript) and Java AWS Lambda functions to automate model-driven campaign workflows and scale email delivery to 6M+ messages/day",
-      "Built AWS CloudWatch monitoring and alerting for ML-powered campaigns, tracking model outputs and system health, which cut campaign costs by $8K+ per month and saved 80+ hours of manual work each week",
-      "Integrated platform services and ML inference pipelines with downstream systems processing 40M+ events/day using AWS SNS, SQS, and S3, reducing campaign processing time by 23%",
+      "Owned end-to-end development of a production-grade service using AWS CDK (TypeScript) and Java-based AWS Lambda functions, automating manual campaign management and scaling to 6M+ emails/day",
+      "Launched with AWS CloudWatch dashboards used daily by enterprise clients, cutting costs by $8K+ monthly and saving 80+ hours of manual work each week",
+      "Integrated with live systems processing 40M+ events/day by connecting AWS SNS and SQS to internal services and persisting artifacts in AWS S3, reducing campaign processing time by 23%",
     ],
     skills: [
       SkillNames.TS,
       SkillNames.JAVA,
       SkillNames.AWS,
-      SkillNames.PYTHON,
+      SkillNames.NODEJS,
     ],
   },
   {
@@ -414,10 +414,10 @@ export const EXPERIENCE: Experience[] = [
     startDate: "Apr 2020",
     endDate: "Sep 2020",
     title: "Machine Learning Engineer Intern",
-    company: "Outlier",
+    company: "THG Ingenuity",
     description: [
-      "Built a Python natural language processing pipeline using scikit-learn, spaCy, and NLTK to analyse requirement documents, then deployed it as a Flask + Redis microservice, cutting processing time from 5 to 3 minutes across 1,200+ requirements per month",
-      "Trained and evaluated a BERT-based model in PyTorch on GPU, using mini-batching to handle requirement corpora efficiently and improving downstream project planning efficiency by 37%",
+      "Built a Python NLP pipeline with scikit-learn, spaCy, and NLTK, then productionized it as a Flask API with Redis caching, cutting processing time from 5 to 3 minutes across 1,200+ requirements per month",
+      "Engineered a BERT-based dependency extraction component for requirement lists, improving project planning efficiency by 37%",
     ],
     skills: [
       SkillNames.PYTHON,
@@ -429,11 +429,11 @@ export const EXPERIENCE: Experience[] = [
     id: 4,
     startDate: "Apr 2019",
     endDate: "Sep 2019",
-    title: "Machine Learning Infrastructure Engineer Intern",
-    company: "Outlier",
+    title: "Software Engineer Intern",
+    company: "THG",
     description: [
-      "Implemented and tuned 30+ AWS Lambda functions and 15+ Step Function workflows to orchestrate machine learning data pipelines and inference services, reducing execution time by 65% and saving $1K per large-scale deployment",
-      "Developed a Spring Boot service, containerized with Docker and deployed on AWS EC2, exposing REST APIs used by 30+ internal stakeholders to consume ML-generated insights",
+      "Built 30+ AWS Lambda functions and 15+ Step Function workflows using REST API integrations to improve reuse and reliability, reducing execution time by 65% and saving $1K per large-scale deployment",
+      "Built a Spring Boot app, containerized with Docker, and deployed on AWS EC2, serving 30+ stakeholders",
     ],
     skills: [
       SkillNames.AWS,

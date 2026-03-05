@@ -76,7 +76,7 @@ const HeroSection = () => {
                       "cursor-default font-display sm:text-xl md:text-xl whitespace-nowrap bg-clip-text "
                     )}
                   >
-                    A Machine Learning Engineer
+                    A Software Engineer
                   </p>
                 </BlurIn>
                 <BlurIn delay={1.4}>
