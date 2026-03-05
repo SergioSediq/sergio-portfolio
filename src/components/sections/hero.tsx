@@ -86,12 +86,12 @@ const HeroSection = () => {
                       "cursor-default font-display sm:text-base md:text-base leading-relaxed"
                     )}
                   >
-                    CS & Law graduate from Manchester Metropolitan University. I build and ship machine learning systems in production, from data pipelines and model deployment to observability and scale. 🚀
+                    CS & Law graduate from Manchester Metropolitan University. I build and ship software across the stack: backend and cloud systems, APIs, and machine learning from data pipelines to model deployment. 🚀
                   </p>
                 </BlurIn>
                 <BlurIn delay={1.5}>
                   <p className={cn("md:self-start mt-4 max-w-md text-sm text-slate-600 dark:text-white leading-relaxed")}>
-                    Hello, world! 👋 I work on ML platforms, NLP, and inference at scale. I like turning research into reliable systems and teaming up with engineers who care about shipping. Always up for roles where I can ship and learn.
+                    Hello, world! 👋 I work on production systems, ML platforms, and NLP. I like turning ideas into reliable systems and teaming up with teams who care about shipping.
                   </p>
                   <p className={cn("md:self-start mt-2 text-xs text-muted-foreground")}>
                     5+ years · 5 certs · 3 companies
