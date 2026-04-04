@@ -439,22 +439,6 @@ export const EXPERIENCE: Experience[] = [
       SkillNames.JAVA,
     ],
   },
-  {
-    id: 5,
-    startDate: "Jan 2024",
-    endDate: "May 2024",
-    title: "Tech Exchange Scholar",
-    company: "Google",
-    description: [
-      "Selected for Google's selective semester-long Tech Exchange. Co-led a cross-institutional project group of HBCU/HSI peers through Applied Data Structures, Full Stack Development, and Software Development Studio, facilitating planning and reviews, tracking milestones, and owning integration so the cohort shipped end-to-end studio outcomes",
-    ],
-    skills: [
-      SkillNames.TS,
-      SkillNames.REACT,
-      SkillNames.NEXTJS,
-      SkillNames.GCP,
-    ],
-  },
 ];
 
 export const themeDisclaimers = {
