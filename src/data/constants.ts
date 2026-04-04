@@ -399,7 +399,7 @@ export const EXPERIENCE: Experience[] = [
     company: "Peltarion",
     description: [
       "Owned end-to-end development of a production-grade service using AWS CDK (TypeScript) and Java-based AWS Lambda functions, automating manual campaign management and scaling to 6M+ emails/day",
-      "Launched with AWS CloudWatch dashboards used daily by enterprise clients, cutting costs by $8K+ monthly and saving 80+ hours of manual work each week",
+      "Launched with AWS CloudWatch dashboards used daily by enterprise clients, cutting costs by £8K+ monthly and saving 80+ hours of manual work each week",
       "Integrated with live systems processing 40M+ events/day by connecting AWS SNS and SQS to internal services and persisting artifacts in AWS S3, reducing campaign processing time by 23%",
     ],
     skills: [
@@ -432,7 +432,7 @@ export const EXPERIENCE: Experience[] = [
     title: "Software Engineer Intern",
     company: "THG",
     description: [
-      "Built 30+ AWS Lambda functions and 15+ Step Function workflows using REST API integrations to improve reuse and reliability, reducing execution time by 65% and saving $1K per large-scale deployment",
+      "Built 30+ AWS Lambda functions and 15+ Step Function workflows using REST API integrations to improve reuse and reliability, reducing execution time by 65% and saving £1K per large-scale deployment",
       "Built a Spring Boot app, containerized with Docker, and deployed on AWS EC2, serving 30+ stakeholders",
     ],
     skills: [
