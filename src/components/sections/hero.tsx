@@ -86,12 +86,12 @@ const HeroSection = () => {
                       "cursor-default font-display sm:text-base md:text-base leading-relaxed"
                     )}
                   >
-                    CS & Law graduate from Manchester Metropolitan University. I build and ship software in production, full-stack, cloud, and machine learning, from APIs and data pipelines to model deployment and observability. 🚀
+                    Focused and fast-learning Software Engineer specializing in cloud security, automation, and production systems. Experienced building scalable applications and cloud-native solutions across regulated enterprise environments, from AWS serverless platforms to Azure observability and security tooling.
                   </p>
                 </BlurIn>
                 <BlurIn delay={1.5}>
                   <p className={cn("md:self-start mt-4 max-w-md text-sm text-slate-600 dark:text-white leading-relaxed")}>
-                    Hello, world! 👋 I work across backend systems, ML platforms, and NLP. I like turning ideas into reliable systems and teaming up with teams who care about shipping. Always up for roles where I can ship and learn.
+                    Seeking high-impact opportunities to ship reliable software, reduce operational toil, and drive innovation in teams that care about execution.
                   </p>
                   <p className={cn("md:self-start mt-2 text-xs text-muted-foreground")}>
                     6+ years, 5 certs, 3 companies
