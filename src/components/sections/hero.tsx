@@ -94,7 +94,7 @@ const HeroSection = () => {
                     Hello, world! 👋 I work across backend systems, ML platforms, and NLP. I like turning ideas into reliable systems and teaming up with teams who care about shipping. Always up for roles where I can ship and learn.
                   </p>
                   <p className={cn("md:self-start mt-2 text-xs text-muted-foreground")}>
-                    5+ years, 5 certs, 4 companies
+                    6+ years, 5 certs, 3 companies
                   </p>
                 </BlurIn>
               </div>
