@@ -380,11 +380,12 @@ export const EXPERIENCE: Experience[] = [
     title: "Application Support Analyst",
     company: "The Co-operative Bank",
     description: [
-      "Debugged regulated production applications across digital banking, payments, and reporting, tracing 100+ incidents a month from customer channels through core banking integrations",
-      "Isolated production faults with SQL, logs, and dashboards; root cause analysis and runbook updates cut resolution time by 30% and repeat incidents by 25%",
-      "Built Python and SQL automations that replaced repeat manual checks on authentication, fraud detection, and core banking data",
+      "Delivered second-line application support for production and test banking systems, handling 500+ contacts a month in ServiceNow and Jira under ITIL incident, problem, and change management, and resolving them within agreed SLAs or escalating them to development with reproduction steps",
+      "Investigated application, data, configuration, and API faults using SQL Server, application logs, and Splunk, completed root cause analysis so repeat incidents were raised to development as permanent fixes, and closed or handed over 35 security incidents a month",
+      "Monitored live applications in Grafana, supported releases and production changes on AWS and Azure, and used Python and Java to script checks, trace defects, and apply data corrections",
+      "Kept incident records, support guides, and a known-issues log current, and worked with business users, infrastructure, and engineering on production issues, access changes, and Active Directory reviews in a regulated bank",
     ],
-    skills: [SkillNames.PYTHON, SkillNames.SQL],
+    skills: [SkillNames.JIRA, SkillNames.SQL, SkillNames.PYTHON, SkillNames.JAVA, SkillNames.AWS, SkillNames.AZURE],
   },
   {
     id: 2,
