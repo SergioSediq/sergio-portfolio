@@ -89,11 +89,6 @@ const HeroSection = () => {
                     I support production systems at The Co-operative Bank and build on AWS, Kubernetes, and CI/CD. Internships at Peltarion and KPMG covered serverless platforms and cloud security automation.
                   </p>
                 </BlurIn>
-                <BlurIn delay={1.5}>
-                  <p className={cn("md:self-start mt-4 max-w-md text-sm text-slate-600 dark:text-white leading-relaxed")}>
-                    MSc Computer Science, Merit, Manchester Metropolitan University.
-                  </p>
-                </BlurIn>
               </div>
               <div className="mt-8 flex flex-col gap-3 w-fit">
                 <Link
