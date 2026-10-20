@@ -86,12 +86,12 @@ const HeroSection = () => {
                       "cursor-default font-display sm:text-base md:text-base leading-relaxed"
                     )}
                   >
-                    Focused and fast-learning Cloud Engineer specializing in cloud security, automation, and production systems. Experienced building scalable applications and cloud-native solutions across regulated enterprise environments, from AWS serverless platforms to Azure observability and security tooling.
+                    Focused and fast-learning Cloud Engineer specializing in cloud security, automation, and production systems, from AWS serverless platforms to Azure observability and security tooling.
                   </p>
                 </BlurIn>
                 <BlurIn delay={1.5}>
                   <p className={cn("md:self-start mt-4 max-w-md text-sm text-slate-600 dark:text-white leading-relaxed")}>
-                    Seeking high-impact opportunities to ship reliable software, reduce operational toil, and drive innovation in teams that care about execution.
+                    Seeking roles where I can ship reliable software and reduce operational toil.
                   </p>
                 </BlurIn>
               </div>
