@@ -11,7 +11,7 @@ import {
 import { usePreloader } from "../preloader";
 import { BlurIn, BoxReveal } from "../reveal-animations";
 import ScrollDownIcon from "../scroll-down-icon";
-import { SiGithub, SiLinkedin, SiX } from "react-icons/si";
+import { SiGithub, SiLinkedin } from "react-icons/si";
 import { config } from "@/data/config";
 
 import SectionWrapper from "../ui/section-wrapper";
@@ -76,7 +76,7 @@ const HeroSection = () => {
                       "cursor-default font-display sm:text-xl md:text-xl whitespace-nowrap bg-clip-text "
                     )}
                   >
-                    A Software Engineer
+                    A Cloud Engineer
                   </p>
                 </BlurIn>
                 <BlurIn delay={1.4}>
@@ -86,15 +86,12 @@ const HeroSection = () => {
                       "cursor-default font-display sm:text-base md:text-base leading-relaxed"
                     )}
                   >
-                    Focused and fast-learning Software Engineer specializing in cloud security, automation, and production systems. Experienced building scalable applications and cloud-native solutions across regulated enterprise environments, from AWS serverless platforms to Azure observability and security tooling.
+                    I support production systems at The Co-operative Bank and build on AWS, Kubernetes, and CI/CD. Internships at Peltarion and KPMG covered serverless platforms and cloud security automation.
                   </p>
                 </BlurIn>
                 <BlurIn delay={1.5}>
                   <p className={cn("md:self-start mt-4 max-w-md text-sm text-slate-600 dark:text-white leading-relaxed")}>
-                    Seeking high-impact opportunities to ship reliable software, reduce operational toil, and drive innovation in teams that care about execution.
-                  </p>
-                  <p className={cn("md:self-start mt-2 text-xs text-muted-foreground")}>
-                    6+ years, 5 certs, 3 companies
+                    MSc Computer Science, Merit, Manchester Metropolitan University.
                   </p>
                 </BlurIn>
               </div>
@@ -129,9 +126,6 @@ const HeroSection = () => {
                     </TooltipContent>
                   </Tooltip>
                   <div className="flex items-center h-full gap-2">
-                    <Button variant={"outline"} className="cursor-default opacity-70">
-                      <SiX size={24} />
-                    </Button>
                     <Link
                       href={config.social.github}
                       target="_blank"

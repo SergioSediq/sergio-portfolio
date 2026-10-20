@@ -1,46 +1,36 @@
 const config = {
-  title: "Sergio Sediq | Full-Stack Developer",
+  title: "Sergio Sediq | Cloud Engineer",
   description: {
-    long: "Explore the portfolio of Sergio, a full-stack developer and creative technologist specializing in interactive web experiences, 3D animations, and innovative projects. Discover my latest work, including On-Orbit Collision Predictor, MyHealthPal, GovLens, Chatify, CatchUp, and more. Let's build something amazing together!",
+    long: "Portfolio of Sergio Sediq, a cloud engineer in Manchester. Work includes AWS EKS, Terraform, an internal developer platform, production support at The Co-operative Bank, and internships at Peltarion and KPMG.",
     short:
-      "Discover the portfolio of Sergio, a full-stack developer creating interactive web experiences and innovative projects.",
+      "Cloud engineer working with AWS, Kubernetes, Terraform, and CI/CD.",
   },
   keywords: [
-    "Sergio",
-    "portfolio",
-    "full-stack developer",
-    "creative technologist",
-    "web development",
-    "3D animations",
-    "interactive websites",
+    "Sergio Sediq",
+    "cloud engineer",
+    "DevOps",
+    "AWS",
+    "Kubernetes",
+    "Terraform",
+    "EKS",
+    "GitHub Actions",
+    "Argo CD",
     "On-Orbit Collision Predictor",
     "MyHealthPal",
-    "GovLens",
-    "Chatify",
-    "CatchUp",
-    "web design",
-    "GSAP",
-    "React",
-    "Next.js",
-    "Spline",
-    "Framer Motion",
   ],
   author: "Sergio Sediq",
   email: "sediqsergio@gmail.com",
-  site: "https://nareshkhatri.site",
+  site: "https://sergio-portfolio-ashen.vercel.app",
 
   // for github stars button
   githubUsername: "SergioSediq",
-  githubRepo: "3d-portfolio",
+  githubRepo: "sergio-portfolio",
 
   get ogImg() {
     return this.site + "/assets/seo/og-image.png";
   },
   social: {
-    twitter: "https://x.com/nothotchaddi",
     linkedin: "https://www.linkedin.com/in/sedyagho",
-    instagram: "https://www.instagram.com/hotchaddi",
-    facebook: "https://www.facebook.com/HotChaddi/",
     github: "https://github.com/SergioSediq",
   },
 };

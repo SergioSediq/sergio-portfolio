@@ -13,6 +13,11 @@ import {
   SiD3Dotjs,
   SiDjango,
   SiDocker,
+  SiFastapi,
+  SiFlask,
+  SiGithubactions,
+  SiHelm,
+  SiKubernetes,
   SiExpress,
   SiFirebase,
   SiHtml5,
@@ -30,6 +35,7 @@ import {
   SiSupabase,
   SiSwift,
   SiTailwindcss,
+  SiTerraform,
   SiThreedotjs,
   SiTypescript,
   SiVite,
@@ -278,6 +284,42 @@ const PROJECT_SKILLS = {
     fg: "white",
     icon: <SiVite />,
   },
+  terraform: {
+    title: "Terraform",
+    bg: "black",
+    fg: "white",
+    icon: <SiTerraform />,
+  },
+  kubernetes: {
+    title: "Kubernetes",
+    bg: "black",
+    fg: "white",
+    icon: <SiKubernetes />,
+  },
+  helm: {
+    title: "Helm",
+    bg: "black",
+    fg: "white",
+    icon: <SiHelm />,
+  },
+  githubActions: {
+    title: "GitHub Actions",
+    bg: "black",
+    fg: "white",
+    icon: <SiGithubactions />,
+  },
+  fastapi: {
+    title: "FastAPI",
+    bg: "black",
+    fg: "white",
+    icon: <SiFastapi />,
+  },
+  flask: {
+    title: "Flask",
+    bg: "black",
+    fg: "white",
+    icon: <SiFlask />,
+  },
 };
 export type Project = {
   id: string;
@@ -291,6 +333,99 @@ export type Project = {
   live: string;
 };
 const projects: Project[] = [
+  {
+    id: "eks-microservices",
+    category: "Cloud / Kubernetes",
+    title: "EKS Microservices",
+    src: "/assets/projects-screenshots/eks-microservices/landing.png",
+    screenshots: ["landing.png"],
+    skills: {
+      frontend: [],
+      backend: [
+        PROJECT_SKILLS.kubernetes,
+        PROJECT_SKILLS.helm,
+        PROJECT_SKILLS.githubActions,
+        PROJECT_SKILLS.docker,
+      ],
+    },
+    live: "https://github.com/SergioSediq/kubernetes-eks-microservices",
+    github: "https://github.com/SergioSediq/kubernetes-eks-microservices",
+    get content() {
+      return (
+        <div>
+          <TypographyP className="font-mono ">
+            Deployed a microservices platform using AWS EKS, Helm, and GitHub Actions,
+            resulting in 4 services autoscaling from 3 to 15 pods across 3 availability
+            zones with rolling updates and centralized logging.
+          </TypographyP>
+          <ProjectsLinks live={this.live} repo={this.github} />
+          <SlideShow images={[`${BASE_PATH}/eks-microservices/landing.png`]} />
+        </div>
+      );
+    },
+  },
+  {
+    id: "multi-tier-aws",
+    category: "Cloud / Terraform",
+    title: "Multi-Tier AWS App",
+    src: "/assets/projects-screenshots/multi-tier-aws/landing.png",
+    screenshots: ["landing.png"],
+    skills: {
+      frontend: [],
+      backend: [
+        PROJECT_SKILLS.terraform,
+        PROJECT_SKILLS.docker,
+        PROJECT_SKILLS.githubActions,
+        PROJECT_SKILLS.postgres,
+      ],
+    },
+    live: "https://github.com/SergioSediq/multi-tier-aws-app",
+    github: "https://github.com/SergioSediq/multi-tier-aws-app",
+    get content() {
+      return (
+        <div>
+          <TypographyP className="font-mono ">
+            Provisioned a 3-tier web application using Terraform, Docker, and GitHub Actions,
+            resulting in a load-balanced application tier of 3-10 instances and Multi-AZ
+            PostgreSQL across 2 availability zones.
+          </TypographyP>
+          <ProjectsLinks live={this.live} repo={this.github} />
+          <SlideShow images={[`${BASE_PATH}/multi-tier-aws/landing.png`]} />
+        </div>
+      );
+    },
+  },
+  {
+    id: "ai-devops-idp",
+    category: "Cloud / DevOps",
+    title: "AI DevOps IDP",
+    src: "/assets/projects-screenshots/ai-devops-idp/landing.png",
+    screenshots: ["landing.png"],
+    skills: {
+      frontend: [PROJECT_SKILLS.ts, PROJECT_SKILLS.react],
+      backend: [
+        PROJECT_SKILLS.fastapi,
+        PROJECT_SKILLS.python,
+        PROJECT_SKILLS.terraform,
+        PROJECT_SKILLS.kubernetes,
+      ],
+    },
+    live: "https://github.com/SergioSediq/ai-devops-idp",
+    github: "https://github.com/SergioSediq/ai-devops-idp",
+    get content() {
+      return (
+        <div>
+          <TypographyP className="font-mono ">
+            Developed an internal developer platform using FastAPI, Backstage, Terraform,
+            AWS EKS, and Argo CD, resulting in diagnosis of failing pods, out-of-memory
+            crashes, and image-pull errors, with runbook search in a developer portal.
+          </TypographyP>
+          <ProjectsLinks live={this.live} repo={this.github} />
+          <SlideShow images={[`${BASE_PATH}/ai-devops-idp/landing.png`]} />
+        </div>
+      );
+    },
+  },
   {
     id: "collision-predictor",
     category: "Space / ML",
@@ -316,13 +451,10 @@ const projects: Project[] = [
     get content() {
       return (
         <div>
-          <TypographyP className="font-mono text-2xl text-center">
-            Predict satellite collisions, protect space assets
-          </TypographyP>
           <TypographyP className="font-mono ">
-            ML-powered collision prediction system for space agencies. Monitor orbits in real-time,
-            assess collision risks, and evaluate maneuvers. Analyse CDM data, calculate collision
-            probabilities, and visualize orbital risks with Django, Next.js, and MATLAB.
+            Built a collision-risk platform using Django, MATLAB, scikit-learn, and Next.js,
+            resulting in ingestion of 58 close-approach warning fields into PostgreSQL prediction
+            reports with role-based access and admin usage monitoring.
           </TypographyP>
           <ProjectsLinks live={this.live} repo={this.github} />
           <TypographyH3 className="my-4 mt-8">Features</TypographyH3>
@@ -356,19 +488,18 @@ const projects: Project[] = [
       ],
       backend: [
         PROJECT_SKILLS.springboot,
+        PROJECT_SKILLS.flask,
         PROJECT_SKILLS.python,
         PROJECT_SKILLS.postgres,
-        PROJECT_SKILLS.docker,
       ],
     },
     get content(): JSX.Element {
       return (
         <div>
           <TypographyP className="font-mono ">
-            MyHealthPal is a unified, AI-powered health companion that combines
-            a Next.js frontend, Spring Boot backend, and Flask-based AI service.
-            It delivers intelligent medical guidance, empathetic mental health
-            support, and local healthcare discovery.
+            Built a virtual care platform using Next.js, Spring Boot, Flask, TensorFlow,
+            and OpenAI, resulting in a sentiment model trained on 1.6M tweets at about
+            94% accuracy for therapist chat.
           </TypographyP>
           <ProjectsLinks live={this.live} repo={this.github} />
           <TypographyH3 className="my-4 mt-8">Core features</TypographyH3>
@@ -383,170 +514,6 @@ const projects: Project[] = [
             and optional Google Cloud APIs for vision and TTS. The AI service
             uses a fine-tuned sentiment model for more empathetic responses.
           </p>
-        </div>
-      );
-    },
-  },
-  {
-    id: "govlens",
-    category: "Government / AI",
-    title: "GovLens",
-    src: "/assets/projects-screenshots/govlens/landing.png",
-    screenshots: ["landing.png"],
-    live: "https://github.com/SergioSediq/GovLens",
-    github: "https://github.com/SergioSediq/GovLens",
-    skills: {
-      frontend: [
-        PROJECT_SKILLS.ts,
-        PROJECT_SKILLS.next,
-        PROJECT_SKILLS.react,
-        PROJECT_SKILLS.tailwind,
-      ],
-      backend: [
-        PROJECT_SKILLS.node,
-        PROJECT_SKILLS.express,
-        PROJECT_SKILLS.mongo,
-        PROJECT_SKILLS.redis,
-        PROJECT_SKILLS.docker,
-      ],
-    },
-    get content() {
-      return (
-        <div>
-          <TypographyP className="font-mono ">
-            GovLens is an AI-powered government news curator. Aggregate agency
-            releases, legislative updates, and trusted news into a single source
-            of truth. Summaries, Q&A, and bias signals help teams act fast without losing rigor.
-          </TypographyP>
-          <ProjectsLinks live={this.live} repo={this.github} />
-          <TypographyH3 className="my-4 mt-8">Features</TypographyH3>
-          <p className="font-mono mb-2">
-            LLM summaries, RAG Q&A, vector search, entity extraction, bias analysis.
-            Live policy signal dashboard, daily briefings, and trusted source curation.
-          </p>
-          <SlideShow images={[`${BASE_PATH}/govlens/landing.png`]} />
-          <p className="font-mono mb-2 mt-4">
-            Built with Next.js, Node/Express, MongoDB, Redis, Google Gemini, Pinecone,
-            LangChain. Deployed with Docker, AWS, Kubernetes, Terraform, and CI/CD.
-          </p>
-        </div>
-      );
-    },
-  },
-  {
-    id: "chatify",
-    category: "Real-time chat",
-    title: "Chatify",
-    src: "/assets/projects-screenshots/chatify/landing.png",
-    screenshots: ["landing.png"],
-    live: "https://github.com/SergioSediq/Chatify",
-    github: "https://github.com/SergioSediq/Chatify",
-    skills: {
-      frontend: [
-        PROJECT_SKILLS.react,
-        PROJECT_SKILLS.ts,
-        PROJECT_SKILLS.vite,
-      ],
-      backend: [PROJECT_SKILLS.firebase],
-    },
-    get content() {
-      return (
-        <div>
-          <TypographyP className="font-mono ">
-            Chatify is a real-time web chat application built with Vite, React, TypeScript, and Firebase.
-            The best place for messaging — free, fast, and secure. Clean UI with 1:1 and group conversations,
-            replies, read receipts, emoji and reactions, and media sharing.
-          </TypographyP>
-          <ProjectsLinks live={this.live} repo={this.github} />
-          <TypographyH3 className="my-4 mt-8">Features</TypographyH3>
-          <p className="font-mono mb-2">
-            Google Auth, real-time messaging (Firestore), thread replies, smart link detection, emoji picker and message reactions,
-            read receipts, image and file uploads (Storage), tombstone-style deletion, light/dark theme, group management with admin controls.
-          </p>
-          <SlideShow images={[`${BASE_PATH}/chatify/landing.png`]} />
-          <p className="font-mono mb-2 mt-4">
-            Frontend: React 18, TypeScript, Vite, Zustand, Styled Components, Material UI. Backend: Firebase Auth, Firestore, Storage.
-          </p>
-        </div>
-      );
-    },
-  },
-  {
-    id: "catchup",
-    category: "iOS · Relationship assistant",
-    title: "CatchUp",
-    src: "/assets/projects-screenshots/catchup/landing.png",
-    screenshots: ["landing.png"],
-    live: "https://github.com/SergioSediq/CatchUp",
-    github: "https://github.com/SergioSediq/CatchUp",
-    skills: {
-      frontend: [PROJECT_SKILLS.swiftui],
-      backend: [],
-    },
-    get content() {
-      return (
-        <div>
-          <TypographyP className="font-mono ">
-            CatchUp is a personal connection assistant for iPhone and iPad built with SwiftUI and SwiftData.
-            Smart reminders, message suggestions, and conversation notes help you stay in touch with the people who matter.
-          </TypographyP>
-          <ProjectsLinks live={this.live} repo={this.github} />
-          <TypographyH3 className="my-4 mt-8">Features</TypographyH3>
-          <p className="font-mono mb-2">
-            Contact management (from iOS Contacts), smart reminders (daily, weekly, monthly, custom), important dates (birthdays & anniversaries),
-            &quot;last reached out&quot; tracking, message suggestions (check-in, gratitude, love notes), conversation notes, swipe &quot;Reached out&quot;, search, iCloud sync. Light/dark mode, no ads.
-          </p>
-          <SlideShow images={[`${BASE_PATH}/catchup/landing.png`]} />
-          <p className="font-mono mb-2 mt-4">
-            Tech: SwiftUI, SwiftData, Contacts framework, User Notifications, PhoneNumberKit. iOS 17+. Data stays on device (optional iCloud).
-          </p>
-        </div>
-      );
-    },
-  },
-  {
-    id: "weather-viz",
-    category: "Data visualization",
-    title: "Global Weather Visualisation",
-    src: "/assets/projects-screenshots/weather-viz/landing.png",
-    screenshots: ["landing.png"],
-    live: "https://global-weather-visualisation.vercel.app",
-    github: "https://github.com/SergioSediq/global-weather-visualisation",
-    skills: {
-      frontend: [
-        PROJECT_SKILLS.js,
-        PROJECT_SKILLS.html5,
-        PROJECT_SKILLS.d3,
-        PROJECT_SKILLS.backbone,
-      ],
-      backend: [PROJECT_SKILLS.node, PROJECT_SKILLS.express],
-    },
-    get content() {
-      return (
-        <div>
-          <TypographyP className="font-mono ">
-            A web-based project for visualizing global weather conditions using
-            animated wind data and map projections. It uses weather forecast data
-            from the Global Forecast System (GFS), combines SVG and HTML5 Canvas
-            for rendering, and runs entirely in the browser.
-          </TypographyP>
-          <ProjectsLinks live={this.live} repo={this.github} />
-          <SlideShow images={[`${BASE_PATH}/weather-viz/landing.png`]} />
-          <TypographyH3 className="my-4 mt-8">Features</TypographyH3>
-          <ul className="list-disc ml-6">
-            <li className="font-mono">
-              Visualizes global wind patterns on an interactive 3D-style world
-              map with animated particles and color gradients for intensity.
-            </li>
-            <li className="font-mono">
-              GFS data on a 1° grid, interpolated in the browser; layered
-              rendering (SVG map + Canvas for particles and overlay).
-            </li>
-            <li className="font-mono">
-              Deployed as a static site; inspired by wind map visualizations and
-              built with JavaScript, HTML, and CSS.
-            </li>
-          </ul>
         </div>
       );
     },
