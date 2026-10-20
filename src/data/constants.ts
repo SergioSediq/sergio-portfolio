@@ -228,7 +228,7 @@ using use = useUsing("use")`,
     shortDescription:
       "always extra, making everything more complicated, period! 🌐👨‍💻",
     color: "#ff9900",
-    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/aws/aws-original.svg",
+    icon: "https://cdn.jsdelivr.net/gh/gilbarbara/logos@main/logos/aws.svg",
   },
   [SkillNames.GCP]: {
     id: 25,
